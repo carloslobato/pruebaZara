@@ -1,0 +1,737 @@
+{
+	"id": "2ce7b955-e81c-8cd7-8fad-8df46d0e54bb",
+	"name": "zara",
+	"allTests": [],
+	"timestamp": 1602976923017,
+	"collection_id": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "3b7d7b1b-23c5-c69b-7cd3-671c4e93895a",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+		"name": "zara",
+		"description": "",
+		"order": [
+			"119a64cd-9784-5936-279d-d3bf437659c0",
+			"11b6023d-fa60-8557-eb2b-0e7255566bbb",
+			"537c8d39-87fd-f247-56a1-504ec676cf22",
+			"830ae496-88b8-8674-d85f-f219af625224",
+			"fc138346-7cbe-cebb-7745-8c002454ef02",
+			"b95b2bca-e83b-4a54-6248-45fadba601fa"
+		],
+		"folders": [],
+		"folders_order": [],
+		"requests": [
+			{
+				"id": "119a64cd-9784-5936-279d-d3bf437659c0",
+				"headers": "",
+				"headerData": [],
+				"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+				"queryParams": [
+					{
+						"key": "date",
+						"value": "2020-06-14 16:00",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "productId",
+						"value": "35455",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "brandId",
+						"value": "1",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					}
+				],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\njsonData = JSON.parse(responseBody);\ntests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1602848274689,
+				"name": "getPrices_1",
+				"description": "",
+				"collectionId": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+				"responses": []
+			},
+			{
+				"id": "11b6023d-fa60-8557-eb2b-0e7255566bbb",
+				"headers": "",
+				"headerData": [],
+				"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+				"queryParams": [
+					{
+						"key": "date",
+						"value": "2020-06-14 16:00",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "productId",
+						"value": "35455",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "brandId",
+						"value": "1",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					}
+				],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\njsonData = JSON.parse(responseBody);\ntests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1602848308270,
+				"name": "getPrices_2",
+				"description": "",
+				"collectionId": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+				"responses": []
+			},
+			{
+				"id": "537c8d39-87fd-f247-56a1-504ec676cf22",
+				"headers": "",
+				"headerData": [],
+				"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-08-14 21:00&productId=35455&brandId=1",
+				"queryParams": [
+					{
+						"key": "date",
+						"value": "2020-08-14 21:00",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "productId",
+						"value": "35455",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "brandId",
+						"value": "1",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					}
+				],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\njsonData = JSON.parse(responseBody);\ntests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1602848393992,
+				"name": "getPrices_3",
+				"description": "",
+				"collectionId": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+				"responses": []
+			},
+			{
+				"id": "830ae496-88b8-8674-d85f-f219af625224",
+				"headers": "",
+				"headerData": [],
+				"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-15 10:00&productId=35455&brandId=1",
+				"queryParams": [
+					{
+						"key": "date",
+						"value": "2020-06-15 10:00",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "productId",
+						"value": "35455",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "brandId",
+						"value": "1",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					}
+				],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\njsonData = JSON.parse(responseBody);\ntests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1602848465778,
+				"name": "getPrices_4",
+				"description": "",
+				"collectionId": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+				"responses": []
+			},
+			{
+				"id": "b95b2bca-e83b-4a54-6248-45fadba601fa",
+				"headers": "",
+				"headerData": [],
+				"url": "localhost:8080/prueba/zara/api/v1/prices?date=2021-06-16 21:00&productId=35455&brandId=1",
+				"queryParams": [
+					{
+						"key": "date",
+						"value": "2021-06-16 21:00",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "productId",
+						"value": "35455",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "brandId",
+						"value": "1",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					}
+				],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": "tests[\"Status code is 204\"] = responseCode.code === 204;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1602848593893,
+				"name": "getPrices_NoContent",
+				"description": "",
+				"collectionId": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+				"responses": []
+			},
+			{
+				"id": "fc138346-7cbe-cebb-7745-8c002454ef02",
+				"headers": "",
+				"headerData": [],
+				"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-16 21:00&productId=35455&brandId=1",
+				"queryParams": [
+					{
+						"key": "date",
+						"value": "2020-06-16 21:00",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "productId",
+						"value": "35455",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					},
+					{
+						"key": "brandId",
+						"value": "1",
+						"equals": true,
+						"description": "",
+						"enabled": true
+					}
+				],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\njsonData = JSON.parse(responseBody);\ntests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;",
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1602848509763,
+				"name": "getPrices_5",
+				"description": "",
+				"collectionId": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+				"responses": []
+			}
+		],
+		"timestamp": 1602838234110,
+		"synced": false,
+		"syncedFilename": "",
+		"remote_id": 0,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"owner": "6663823",
+		"subscribed": false,
+		"createdAt": 1602838234110,
+		"updatedAt": 1602848541019,
+		"write": true,
+		"published": false,
+		"favorite": true,
+		"permissions": {},
+		"syncedPermissions": {},
+		"sharedWithTeam": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"id": "119a64cd-9784-5936-279d-d3bf437659c0",
+			"name": "getPrices_1",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 25.45 EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 25.45 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				348
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"The price is: 25.45 EUR": true
+				}
+			],
+			"time": 348,
+			"totalRequestTime": 348,
+			"iterationResults": {}
+		},
+		{
+			"id": "11b6023d-fa60-8557-eb2b-0e7255566bbb",
+			"name": "getPrices_2",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 25.45 EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 25.45 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"The price is: 25.45 EUR": true
+				}
+			],
+			"time": 25,
+			"totalRequestTime": 25,
+			"iterationResults": {}
+		},
+		{
+			"id": "537c8d39-87fd-f247-56a1-504ec676cf22",
+			"name": "getPrices_3",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-08-14 21:00&productId=35455&brandId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 38.95 EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 38.95 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"The price is: 38.95 EUR": true
+				}
+			],
+			"time": 24,
+			"totalRequestTime": 24,
+			"iterationResults": {}
+		},
+		{
+			"id": "830ae496-88b8-8674-d85f-f219af625224",
+			"name": "getPrices_4",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-15 10:00&productId=35455&brandId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 30.5 EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 30.5 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"The price is: 30.5 EUR": true
+				}
+			],
+			"time": 20,
+			"totalRequestTime": 20,
+			"iterationResults": {}
+		},
+		{
+			"id": "fc138346-7cbe-cebb-7745-8c002454ef02",
+			"name": "getPrices_5",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-16 21:00&productId=35455&brandId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 38.95 EUR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 38.95 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"The price is: 38.95 EUR": true
+				}
+			],
+			"time": 12,
+			"totalRequestTime": 12,
+			"iterationResults": {}
+		},
+		{
+			"id": "b95b2bca-e83b-4a54-6248-45fadba601fa",
+			"name": "getPrices_NoContent",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2021-06-16 21:00&productId=35455&brandId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": "The server successfully processed the request, but is not returning any content."
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			],
+			"time": 11,
+			"totalRequestTime": 11,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 11,
+	"totalFail": 0,
+	"totalTime": 440,
+	"lifecycle": "done",
+	"willStop": false,
+	"requests": [
+		{
+			"name": "getPrices_1",
+			"id": "119a64cd-9784-5936-279d-d3bf437659c0",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+			"time": 348,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 25.45 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200",
+				"The price is: 25.45 EUR"
+			],
+			"gridData": [
+				[
+					true,
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 25.45 EUR": true
+			}
+		},
+		{
+			"name": "getPrices_2",
+			"id": "11b6023d-fa60-8557-eb2b-0e7255566bbb",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 25.45 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200",
+				"The price is: 25.45 EUR"
+			],
+			"gridData": [
+				[
+					true,
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 25.45 EUR": true
+			}
+		},
+		{
+			"name": "getPrices_3",
+			"id": "537c8d39-87fd-f247-56a1-504ec676cf22",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-08-14 21:00&productId=35455&brandId=1",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 38.95 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200",
+				"The price is: 38.95 EUR"
+			],
+			"gridData": [
+				[
+					true,
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 38.95 EUR": true
+			}
+		},
+		{
+			"name": "getPrices_4",
+			"id": "830ae496-88b8-8674-d85f-f219af625224",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-15 10:00&productId=35455&brandId=1",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 30.5 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200",
+				"The price is: 30.5 EUR"
+			],
+			"gridData": [
+				[
+					true,
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 30.5 EUR": true
+			}
+		},
+		{
+			"name": "getPrices_5",
+			"id": "fc138346-7cbe-cebb-7745-8c002454ef02",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-16 21:00&productId=35455&brandId=1",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The price is: 38.95 EUR": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 200",
+				"The price is: 38.95 EUR"
+			],
+			"gridData": [
+				[
+					true,
+					true
+				]
+			],
+			"tests": {
+				"Status code is 200": true,
+				"The price is: 38.95 EUR": true
+			}
+		},
+		{
+			"name": "getPrices_NoContent",
+			"id": "b95b2bca-e83b-4a54-6248-45fadba601fa",
+			"url": "localhost:8080/prueba/zara/api/v1/prices?date=2021-06-16 21:00&productId=35455&brandId=1",
+			"time": 11,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": "The server successfully processed the request, but is not returning any content."
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"gridTitles": [
+				"Status code is 204"
+			],
+			"gridData": [
+				[
+					true
+				]
+			],
+			"tests": {
+				"Status code is 204": true
+			}
+		}
+	],
+	"synced": false
+}
