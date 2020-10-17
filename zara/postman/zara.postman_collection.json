@@ -1,0 +1,357 @@
+{
+	"variables": [],
+	"info": {
+		"name": "zara",
+		"_postman_id": "0c4f3ca0-ba93-2a6e-7a4d-a007d1f160fd",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getPrices_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"jsonData = JSON.parse(responseBody);",
+							"tests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prueba",
+						"zara",
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-14 16:00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "productId",
+							"value": "35455",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "brandId",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getPrices_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"jsonData = JSON.parse(responseBody);",
+							"tests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-14 16:00&productId=35455&brandId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prueba",
+						"zara",
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-14 16:00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "productId",
+							"value": "35455",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "brandId",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getPrices_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"jsonData = JSON.parse(responseBody);",
+							"tests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "localhost:8080/prueba/zara/api/v1/prices?date=2020-08-14 21:00&productId=35455&brandId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prueba",
+						"zara",
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-08-14 21:00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "productId",
+							"value": "35455",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "brandId",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getPrices_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"jsonData = JSON.parse(responseBody);",
+							"tests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-15 10:00&productId=35455&brandId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prueba",
+						"zara",
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-15 10:00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "productId",
+							"value": "35455",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "brandId",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getPrices_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 200\"] = responseCode.code === 200;",
+							"jsonData = JSON.parse(responseBody);",
+							"tests[\"The price is: \"+jsonData.price+\" \"+jsonData.curr] = true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "localhost:8080/prueba/zara/api/v1/prices?date=2020-06-16 21:00&productId=35455&brandId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prueba",
+						"zara",
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-16 21:00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "productId",
+							"value": "35455",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "brandId",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getPrices_NoContent",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"Status code is 204\"] = responseCode.code === 204;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "localhost:8080/prueba/zara/api/v1/prices?date=2021-06-16 21:00&productId=35455&brandId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prueba",
+						"zara",
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2021-06-16 21:00",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "productId",
+							"value": "35455",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "brandId",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
