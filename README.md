@@ -1,2 +1,3 @@
-# pruebaZara
-Proyecto prueba Zara 
+# technicalTestZara
+
+Zara Technical Test Project
